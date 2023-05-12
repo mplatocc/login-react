@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       {isAuthenticated?<LogoutButton />:<LoginButton />}
       <Profile />
+
+       {isAuthenticated?<LogoutButton />:<LoginButton />}
       </header>
     </div>
   );
