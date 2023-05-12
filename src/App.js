@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <h1>JULIO</h1>
+       <h1>Universidad Mariano Gálvez de Guatemala</h1>
+       <h2>Maestría en Seguridad Informática</h2>
+
        {isAuthenticated?<LogoutButton />:<LoginButton />}
       <Profile />
       </header>
